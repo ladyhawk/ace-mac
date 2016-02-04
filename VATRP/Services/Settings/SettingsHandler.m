@@ -39,7 +39,7 @@
     }
     if ([[NSUserDefaults standardUserDefaults]objectForKey:@"expiration_time"] == nil)
     {
-        [[NSUserDefaults standardUserDefaults] setInteger:3600 forKey:@"expiration_time" ];
+        [[NSUserDefaults standardUserDefaults] setInteger:2800 forKey:@"expiration_time" ];
     }
     if ([[NSUserDefaults standardUserDefaults]objectForKey:@"version"] == nil)
     {
@@ -71,7 +71,7 @@
     }
     if ([[NSUserDefaults standardUserDefaults]objectForKey:@"sip_register_port"] == nil)
     {
-        [[NSUserDefaults standardUserDefaults] setInteger:5060 forKey:@"sip_register_port"];
+        [[NSUserDefaults standardUserDefaults] setInteger:25060 forKey:@"sip_register_port"];
     }
     if ([[NSUserDefaults standardUserDefaults]objectForKey:@"sip_register_transport"] == nil)
     {
