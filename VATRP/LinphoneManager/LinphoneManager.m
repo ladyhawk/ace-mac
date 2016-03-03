@@ -1371,12 +1371,14 @@ static BOOL libStarted = FALSE;
     MSFactory *f = linphone_core_get_ms_factory(theLinphoneCore);
     //libmssilk_init(f);
     //libmsamr_init(f);
-    //    libmsx264_init(f);
+    //libmsx264_init(f);
     //libmsopenh264_init(f);
     //libmsbcg729_init(f);
     //libmswebrtc_init(f);
-    ms_factory_load_plugins(f, ".");
-    ms_factory_load_plugins(f, "lib/mediastreamer/plugins");
+    
+    NSString *s = [NSString stringWithFormat:@"%@/Contents/Frameworks/",[[NSBundle mainBundle] bundlePath]];
+    NSLog(@"Plugin path: %@", s);
+    ms_factory_load_plugins(f, [s cStringUsingEncoding:[NSString defaultCStringEncoding]]);
     linphone_core_reload_ms_plugins(theLinphoneCore, NULL);
     configH264HardwareAcell(false, false);
 }
