@@ -1366,8 +1366,10 @@
 			children = (
 				4AADCFB71BCB99E600BF8ABA /* CallInfoWindowController.h */,
 				4AADCFB81BCB99E600BF8ABA /* CallInfoWindowController.m */,
+				A45DFA771C8E3B98003FD318 /* CallInfoWindowController.xib */,
 				4AADCFB41BCB99C600BF8ABA /* CallInfoViewController.h */,
 				4AADCFB51BCB99C600BF8ABA /* CallInfoViewController.m */,
+				A45DFA791C8E3BA9003FD318 /* CallInfoViewController.xib */,
 			);
 			path = "Call Info";
 			sourceTree = "<group>";
@@ -1520,8 +1522,10 @@
 			children = (
 				4AB556431BDE2598003382B2 /* AboutWindowController.h */,
 				4AB556441BDE2598003382B2 /* AboutWindowController.m */,
+				A45DFA731C8E36F5003FD318 /* AboutWindowController.xib */,
 				4AB556461BDE25AD003382B2 /* AboutViewController.h */,
 				4AB556471BDE25AD003382B2 /* AboutViewController.m */,
+				A45DFA751C8E371C003FD318 /* AboutViewController.xib */,
 			);
 			path = About;
 			sourceTree = "<group>";
@@ -2013,6 +2017,7 @@
 				A4FAEECC1C8E280A005103E5 /* ThemeViewController.xib in Resources */,
 				A4CA9EEF1C87767D00B4E8CA /* TermsOfUseViewController.xib in Resources */,
 				69EE9C061C64B6E20010EBB3 /* RTPquality_medium_bottom.png in Resources */,
+				A45DFA781C8E3B98003FD318 /* CallInfoWindowController.xib in Resources */,
 				A4EB900C1C85E0C50038E4FD /* MainMenu.xib in Resources */,
 				A4BDF2111C90B0A90039A59F /* SelfVideoViewController.xib in Resources */,
 				A47695501C8F655800748DEF /* RTTView.xib in Resources */,
@@ -2048,6 +2053,7 @@
 				69A025B31BFB5C83005C62FA /* mute_disabled.png in Resources */,
 				A476955C1C8FB92E00748DEF /* ContactsView.xib in Resources */,
 				69A025B51BFB5C83005C62FA /* numpad_active.png in Resources */,
+				A45DFA741C8E36F5003FD318 /* AboutWindowController.xib in Resources */,
 				692EDEEC1C05AC7E006073E2 /* send_message.png in Resources */,
 				69A025B91BFB5C83005C62FA /* speaker_disabled.png in Resources */,
 				CEF3B8111C0897BB00F35757 /* male.png in Resources */,
@@ -2091,6 +2097,7 @@
 				04C75BCB1C5A22F00089FEB6 /* global.png in Resources */,
 				4AB556701BE272D5003382B2 /* call_status_outgoing.png in Resources */,
 				69E42FB01C5769B5003EF534 /* icon_fullscreen_open.png in Resources */,
+				A45DFA7A1C8E3BA9003FD318 /* CallInfoViewController.xib in Resources */,
 				697359241C17344400A24D09 /* SettingsUI.plist in Resources */,
 				697840851C089B55000ED450 /* call hold.png in Resources */,
 				4A2BAB971BC4FAE200640476 /* cafile.pem in Resources */,

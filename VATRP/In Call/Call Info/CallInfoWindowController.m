@@ -7,6 +7,7 @@
 //
 
 #import "CallInfoWindowController.h"
+#import "CallInfoViewController.h"
 
 @interface CallInfoWindowController ()
 
@@ -31,7 +32,6 @@
     // Implement this method to handle any initialization after your window controller's window has been loaded from its nib file.
     CallInfoViewController* callInfoViewController = [[CallInfoViewController alloc] init];
     [self.window.contentView addSubview:callInfoViewController.view];
-    
     [self.window setTitle:@"CallInfoViewController"];
 }
 

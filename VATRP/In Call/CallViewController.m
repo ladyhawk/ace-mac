@@ -109,7 +109,8 @@ dispatch_queue_t callAlertAnimationQueue;
 }
 
 - (IBAction)onButtonCallInfo:(id)sender {
-    callInfoWindowController = [[NSStoryboard storyboardWithName:@"Main" bundle:nil] instantiateControllerWithIdentifier:@"CallInfo"];
+//    callInfoWindowController = [[NSStoryboard storyboardWithName:@"Main" bundle:nil] instantiateControllerWithIdentifier:@"CallInfo"];
+    callInfoWindowController = [[CallInfoWindowController alloc] init];
     [callInfoWindowController showWindow:self];
 }
 

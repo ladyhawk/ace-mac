@@ -329,8 +329,8 @@ BOOL isRTTLocallyEnabled;
             [callInfoViewController dismissController:self];
             callInfoViewController = nil;
         } else {
-            callInfoViewController = [[NSStoryboard storyboardWithName:@"Main" bundle:nil] instantiateControllerWithIdentifier:@"CallInfoViewController"];
-            
+//            callInfoViewController = [[NSStoryboard storyboardWithName:@"Main" bundle:nil] instantiateControllerWithIdentifier:@"CallInfoViewController"];
+            callInfoViewController = [[CallInfoViewController alloc] init];
             [[AppDelegate sharedInstance].homeWindowController.contentViewController presentViewController:callInfoViewController
                                                                                     asPopoverRelativeToRect:((NSButton*)sender).frame
                                                                                                      ofView:self.view
@@ -342,7 +342,8 @@ BOOL isRTTLocallyEnabled;
                                                                                                   behavior:NSPopoverBehaviorApplicationDefined];
         }
     } else {
-        callInfoWindowController = [[NSStoryboard storyboardWithName:@"Main" bundle:nil] instantiateControllerWithIdentifier:@"CallInfo"];
+        callInfoWindowController = [[CallInfoWindowController alloc] init];
+//        callInfoWindowController = [[NSStoryboard storyboardWithName:@"Main" bundle:nil] instantiateControllerWithIdentifier:@"CallInfo"];
         [callInfoWindowController showWindow:self];
     }
     

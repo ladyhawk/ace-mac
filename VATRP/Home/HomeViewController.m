@@ -273,7 +273,7 @@ bool dialPadIsShown;
     if (dialPadIsHidden)
     {
         [self hideDialPad:false];
-        NSRect dialPadFrame = self.dialPadContainer.frame;
+//        NSRect dialPadFrame = self.dialPadContainer.frame;
         [self.viewContainer setFrame:NSMakeRect(0, 351, 310, 297)];
         [viewCurrent setFrame:NSMakeRect(0, 0, self.viewContainer.frame.size.width, self.viewContainer.frame.size.height)];
         [self.dockView selectItemWithDocViewItem:DockViewItemDialpad];
