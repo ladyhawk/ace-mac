@@ -59,15 +59,21 @@
 
 @implementation CallInfoViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do view setup here.
+-(id) init
+{
+    self = [super initWithNibName:@"CallInfoViewController" bundle:nil];
+    if (self)
+    {
+        // init
+    }
+    return self;
     
 }
 
--(void)viewWillAppear
+
+-(void)awakeFromNib
 {
-    [super viewWillAppear];
+    [super awakeFromNib];
     [self callInfoUpdateTimer];
     if (timerCallInfoUpdate && [timerCallInfoUpdate isValid])
     {
