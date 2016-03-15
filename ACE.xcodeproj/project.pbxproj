@@ -21,8 +21,6 @@
 		04C75BCD1C5A22F00089FEB6 /* sorenson.png in Resources */ = {isa = PBXBuildFile; fileRef = 04C75BC61C5A22F00089FEB6 /* sorenson.png */; };
 		04C75BCF1C5A24B50089FEB6 /* caag.png in Resources */ = {isa = PBXBuildFile; fileRef = 04C75BCE1C5A24B50089FEB6 /* caag.png */; };
 		04FD27921C68E350005659B0 /* camera_mute.png in Resources */ = {isa = PBXBuildFile; fileRef = 04FD27911C68E350005659B0 /* camera_mute.png */; };
-		13E71DB41C8006FC0052D2DA /* libmsopenh264.0.dylib in Copy Files */ = {isa = PBXBuildFile; fileRef = 13E71DB31C8006FC0052D2DA /* libmsopenh264.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		13E71DB51C8007380052D2DA /* libmsopenh264.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E71DB31C8006FC0052D2DA /* libmsopenh264.0.dylib */; };
 		20A9933A1BB5B9F6008612F9 /* HockeySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A993391BB5B9F6008612F9 /* HockeySDK.framework */; };
 		2B463F061B984E49008E8333 /* ContactsWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B463EF51B984E49008E8333 /* ContactsWindowController.m */; };
 		2B463F071B984E49008E8333 /* DialpadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B463EF81B984E49008E8333 /* DialpadViewController.m */; };
@@ -403,7 +401,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				13E71DB41C8006FC0052D2DA /* libmsopenh264.0.dylib in Copy Files */,
 				733FFCCD1C85F14900BA1B87 /* libgsm.dylib in Copy Files */,
 				73048F6E1C46C01300375345 /* libbelcard.1.dylib in Copy Files */,
 				738D5B901BFF687C000F2F76 /* libintl.8.dylib in Copy Files */,
@@ -867,7 +864,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13E71DB51C8007380052D2DA /* libmsopenh264.0.dylib in Frameworks */,
 				7301AEFA1C6FE5CA00B3648D /* VideoToolbox.framework in Frameworks */,
 				73048F6A1C46BE7600375345 /* libbelr.1.dylib in Frameworks */,
 				73048F681C46BE6F00375345 /* libbelcard.1.dylib in Frameworks */,
