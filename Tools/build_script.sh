@@ -25,6 +25,7 @@ MUTED_PID=$!
 
 echo "Running make for dependencies"
 make -j 8 >> $LOGFILE 2>&1
+ninja -C WORK/cmake >> $LOGFILE 2>&1
 
 MAKE_RESULT=$?
 
